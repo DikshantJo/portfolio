@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "title": "Food Orders",
+      "details": {
+        "description": "Food orders is a web application that let's you order food online. You can either get the food delivered to your house or collect it from the nearest store or resturant.",
+        "subtitle": "The Side Project",
+        "description2": "It is a web application that I designed and developed(front-end). This project is actually a part of even bigger POS(Point-of-sale) application."
+      },
+      "date": "Jan 2022",
+      "summary": "Project",
+      "roles": [
+        "Designer",
+        "Front-end Developer"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "text": "Click to view",
+          "link": "https://github.com/DikshantJo/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Grillzzy Foods",
+      "details": {
+        "description": "Grillzzy Foods is a food manufacturing company that manufactures and distributes packaged meat products. The Grillzzy website captures their brand identity as connoisseurs of Authentic South Asian Food.",
+        "subtitle": "Making the Meat Digital",
+        "description2": "Working closely with the Grillzzy team, I captured their vision of a brand that appeals digitally and physically. Designed with a focus on the experience of their food, the Grillzzy website captures their vision of true authentic South Asian food for everyone."
+      },
+      "date": "Nov 2020",
+      "summary": "Brand Website",
+      "roles": [
+        "Brand Designer",
+        "Web Designer",
+        "Front-End Developer"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "text": "Visit Site",
+          "link": "https://grillzzy.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Grillzzy Foods",
+      "details": {
+        "description": "Grillzzy Foods is a food manufacturing company that manufactures and distributes packaged meat products. The Grillzzy website captures their brand identity as connoisseurs of Authentic South Asian Food.",
+        "subtitle": "Making the Meat Digital",
+        "description2": "Working closely with the Grillzzy team, I captured their vision of a brand that appeals digitally and physically. Designed with a focus on the experience of their food, the Grillzzy website captures their vision of true authentic South Asian food for everyone."
+      },
+      "date": "Nov 2020",
+      "summary": "Brand Website",
+      "roles": [
+        "Brand Designer",
+        "Web Designer",
+        "Front-End Developer"
+      ],
+      "links": [
+        {
+          "type": "web",
+          "text": "Visit Site",
+          "link": "https://grillzzy.com"
+        }
+      ]
+    }
+  ]
+  

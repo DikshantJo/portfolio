@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang = "eng">
+   <head>
+      <title>Dikshant Joshi - Web Developer</title>
+      <link rel="stylesheet" type="text/css" href="/files/css/main.css">
+      <link rel="stylesheet" type="text/css" href="/files/css/style.css">
+      <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+	  <meta name="keywords" content="Dikshant, Joshi, Dikshant Joshi, Portfolio, UI , UX , Front-end">
+	  <meta name="author" content="Dikshant Joshi">
+	  <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	  <meta name="description" content="Dikshant Joshi is a Self taught UI/UX, front-end web developer from India.">
+      <link rel="canonical" href="https://musabhassan.com" />
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RB5HN95BW0"></script>
+	  <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+  
+	  gtag('config', 'G-RB5HN95BW0');
+	  </script>
+        
+      <style>
+         /* Custom Margins */
+         .mtd-2{
+         margin-top: 15px !important;
+         }
+         .mtd-6{
+         margin-top: 90px !important;
+         }
+         .mtd-4{
+         margin-top: 60px !important;
+         }
+         /* CUSTOM WIDTH */
+         .wd-50{
+         width: 50% !important;
+         }
+         .wd-30{
+         width: 30% !important;
+         }
+         .wd-100{
+         width: 100% !important;
+         }
+         .wd-75{
+            width:75%
+         }
+         .wd-25{
+            width:25%;
+         }
+         .textAlignCenter{
+         text-align: center !important;
+         }
+         /* CUSTOM PORTFOLIO TAG */
+         .back-parallax-wrapperI h2{
+            position: absolute;
+            left: 50%;
+            bottom: -100%;
+            transform: translate(-50%,-100%) !important;
+            /* bottom: 0; */
+            font-size: 18vw;
+            font-family: 'ClashDisplay-Medium';
+            color: #DFE3E8;
+         }
+         .justifyContentCenter{
+         justify-content: center !important;
+         }
+         .alignItemsEnd{
+         align-items: flex-end !important;
+         }
+         .flexColumn{
+            flex-direction: column !important;
+         }
+         .hide{
+            display: none !important;
+         }
+         .fontSize100{
+            font-size: 100px !important;
+            margin-top: 20px !important;
+         }
+         .fontSize35{
+            font-size: 35px !important;
+         }
+         .fontSize20{
+            font-size: 20px !important;
+            margin-top: 20px !important;
+         }
+         .justifyContentAround{
+            justify-content: space-around !important;
+         }
+         #listing-container .secondary-image-wrapper img{
+            width: 80%;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="back-fill"></div>
+      <!-- Mouse Following Dot -->
+      <div class="hover-container">
+         <div class="hover-circle"></div>
+      </div>
+      <!-- SVG Wave Filter -->
+      <svg style="width: 0; height: 0">
+         <filter id="waveTurbulance" >
+            <feTurbulence baseFrequency="0.002" numOctaves="1">
+               <animate attributeName="baseFrequency" dur="30s" values="0.01; 0.02; 0.01" repeatCount="indefinite"/>
+            </feTurbulence>
+            <feDisplacementMap scale="25" in="SourceGraphic"/>
+         </filter>
+      </svg>
+      <!-- Work Display Container -->
+      <div id="listing-container">
+         <div class="left-marker"></div>
+         <div class="work-close-btn clickable">&times;</div>
+         <div class="scroll-wrapper">
+            <div class="contentContainer">
+               <div class="section entry-section">
+                  <div class="inline-wrapper">
+                     <img class="primary-image-container" src="">
+                     <div class="details-wrapper">
+                        <p class="num f-index"><span></span></p>
+                        <h1 class="main-title f-title"></h1>
+                        <p class="info-paragraph f-description"></p>
+                        <div class="links">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="section second scroll-section">
+                  <div class="inline-wrapper">
+                     <div class="stats-wrapper">
+                        <div class="stats-section">
+                           <span class="label">DATE:</span>
+                           <h2 class="date f-date"></h2>
+                        </div>
+                        <div class="stats-section">
+                           <span class="label">ROLES:</span>
+                           <ul class="roles">
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="details-wrapper">
+                        <h1 class="main-title f-subtitle"></h1>
+                        <p class="info-paragraph f-s-description"></p>
+                     </div>
+                     <div class="secondary-image-wrapper">
+                        <img src="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- my Info Display Container -->
+      <div id="listing-containerI">
+         <div class="left-markerI"></div>
+         <div class="work-close-btnI clickable" style="display:none">&times;</div>
+         <div class="scroll-wrapperI">
+            <div class="contentContainerI">
+               <div class="sectionI entry-sectionI">
+                  <div class="inline-wrapperI wd-100">
+                     <div class="details-wrapperI wd-100" style="padding-left:0px">
+                        <p class="numI f-indexI"><span></span></p>
+                        <h1 class="main-titleI f-titleI"></h1>
+                        <p class="info-paragraphI f-descriptionI"></p>
+                        <div class="linksI">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sectionI secondI scroll-sectionI">
+                  <div class="inline-wrapperI">
+                     <div class="stats-wrapperI wd-50">
+                        <div class="stats-sectionI">
+                           <span class="labelI">Company</span>
+                           <h2 class="dateI f-dateI"></h2>
+                        </div>
+                        <div class="stats-sectionI">
+                           <span class="labelI">ROLES:</span>
+                           <ul class="rolesI">
+                              <li class="rolesAdded"></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="details-wrapperI wd-50" style="padding-left:0">
+                        <h1 class="main-titleI f-subtitleI">My Experience</h1>
+                        <p class="info-paragraphI f-s-descriptionI"></p>
+                     </div>
+                     <!-- <div class="secondary-image-wrapperI">
+                        <img src="">
+                     </div> -->
+                  </div>
+             
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+
+      <!-- Navigation Bar -->
+      <div class="nav-wrapper">
+         <!-- <img draggable="false" data-name="home" data-lazysrc="files/imgs/icon.png" alt="Page Logo" style = "width:7vh;" class = "logo-icon clickable"> -->
+         <a style = "width:7vh;font-size:50px;font-family:'ClashDisplay-Semibold';text-align:center" class = "logo-icon clickable "  data-name="home">D </a>
+         <div class="hb-button clickable">
+            <div class="hb">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <div class="text">Menu</div>
+         </div>
+      </div>
+      <!-- Navigation Menu -->
+      <div class="m-nav-wrapper">
+         <div class="background-wrapper">
+            <img class="background wave-filter" data-lazysrc="files/imgs/back/nav-back-1.png">
+         </div>
+         <div class="list-container">
+            <ul>
+               <li class="scroller" data-name="home"><span class="clickable">Home</span></li>
+               <li class="scroller" data-name="work"><span class="clickable">Work</span></li>
+               <li class="scroller" data-name="about"><span class="clickable">About</span></li>
+               <li><span><a class="clickable" onclick="window.open('mailto:mailme@dikshantjoshi.in', '_blank');">Email</a></span></li>
+               <li><span><a class="clickable" onclick="window.open('https://github.com/DikshantJo', '_blank');">Github</a></span></li>
+            </ul>
+         </div>
+      </div>
+      <!-- Page Content -->
+      <div class="document-ease" style="margin-left:0% !important;">
+         <!-- Home Page -->
+         <div id="contentContainer" style="padding-top: 15vh">
+            <!-- <div class="load">
+               <div class="loader">0%</div>
+            </div> -->
+            <div class="wrap">
+               <div class="loading">
+                 <div class="bounceball"></div>
+                 <div class="loadingText">Loading</div>
+               </div>
+             </div>
+            <div class="content-wrapper">
+               <div class="text-content flex flexColumn">
+                  <div class="mtd-6 wd-100">
+                     <!-- <img draggable="false" data-lazysrc="files/imgs/signature-white.png" alt="Musab Signature" style = "width:25vh; position:absolute;" class = "h-animate h-signature"> -->
+                     <h1 class = "title white h-animate" style="text-transform:none;font-size: 32px;letter-spacing: 1px !important;text-align: center;"><span style="font-family: 'ClashDisplay-Medium';">Hi, I'm </span><br><span style="font-size: 80px; font-family: 'ClashDisplay-Medium';">Dikshant Joshi</span><br><span style="font-family: 'ClashDisplay-Medium';font-size: 20px;">I'm a product designer and a front-end developer</span></h1>
+                     <!-- <h3 class = "subtitle white h-animate mtd-2" style="font-family: 'ClashDisplay-Medium';text-align: center;">Designer & Web Developer </h3> -->
+                     <!-- <h3 class = "subtitle white h-animate">Web Developer</h3> -->
+                     <!-- <h3 class = "scroll-msg subheader white bottom h-animate">Scroll</h3> -->
+                     <div class="parallax-wrapper home-back">
+                        <!-- <img draggable="false" data-lazysrc="files/imgs/back/home-back.jpg" style="width:100%; height: 100%; object-fit: cover;"> -->
+                     </div>
+                  </div>
+                
+               </div>
+               <div class="flex flexColumn alignItemsCenter justifyContentbetween wd-100 h-animate h-signature">
+                  <div class="c-summary_list flex wd-100 alignItemsCenter justifyContentAround expressNavMenu">
+                     <div class="wd-100 c-summary_list_item textAlignCenter" style="padding: 10px;">
+                        <a href="#fixed-elements" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
+                           About
+                           <!-- <span class="c-summary_list_icon u-icon">
+                              ↓
+                              </span> -->
+                        </a>
+                     </div>
+                     <div class="wd-100 c-summary_list_item textAlignCenter " style="padding: 10px;">
+                        <a href="#speed-control" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
+                           Work
+                           <!-- <span class="c-summary_list_icon u-icon">
+                              ↓
+                              </span> -->
+                        </a>
+                     </div>
+                     <!--  <li class="c-summary_list_item u-label" data-scroll>
+                        <a href="#lerp-effect" data-scroll-to>
+                           03. Blog
+                           <span class="c-summary_list_icon u-icon">
+                              ↓
+                           </span>
+                        </a>
+                        </li> -->
+                     <div class="wd-100 c-summary_list_item textAlignCenter" style="padding: 10px;">
+                        <a href="#scroll-direction" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
+                           Contact
+                           <!-- <span class="c-summary_list_icon u-icon">
+                              ↓
+                              </span> -->
+                        </a>
+                     </div>
+                  </div>
+                  <div class="back-parallax-wrapperI" style="opacity: 1; transform: translate(0px, 138.865px);">
+                     <h2 class="back-title">Portfolio</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- About Page -->
+         <div id="contentContainer" class="about flex alignItemsCenter justifyContentAround" style="margin-top:20vh;">
+            <div class="profile-image">
+               <!-- <img data-lazysrc="files/imgs/work-back/1/coverII.jpg" alt="Musab's Face" class="profile-pic"> -->
+            </div>
+            <div class="flex justifyContentAround aboutMe" style="margin-top:5vh; box-sizing: border-box;">
+               <div class="wd-75">
+                  <h1 class = "big-title a-animate" style="margin-bottom: 10px;">Hi, I'm Dikshant</h1>
+                  <p class="paragraph a-animate wd-100">
+                     I am a passionate self-taught UX designer and a front-end developer based in India. I create digital designs for websites, mobile, desktop, and other digital environments. I am also a front-end Developer, so I also bring my digital designs to life through code.<br> More about <a class="clickable learnMoreBtn a-animate" style="font-size: 2vh;font-family: 'ClashDisplay-Medium';color:#E64D3D;border-bottom: 2px solid #E64D3D;">ME</a>
+                  </p>
+               </div>
+               <div class="flex flexColumn wd-25 justifyContentCenter alignItemsEnd socialLinksContainer">
+                  <span class="divide-link a-animate">
+                  <a onclick="window.open('mailto:mailme@dikshantjoshi.in', '_blank')" class="clickable sublink link">Email</a>
+                  </span>
+                  <span class="divide-link a-animate">
+                  <a onclick="window.open('https://github.com/DikshantJo', '_blank')" class="clickable sublink link">Github</a>
+                  </span>
+                  <span class="divide-link a-animate">
+                  <a onclick="window.open('https://github.com/Musab-Hassan', '_blank')" class="clickable sublink link">Instagram</a>
+                  </span>
+                  <span class="divide-link a-animate">
+                  <a onclick="window.open('https://github.com/Musab-Hassan', '_blank')" class="clickable sublink link">Facebook</a>
+                  </span>
+                  <span class="divide-link a-animate">
+                  <a onclick="window.open('https://github.com/Musab-Hassan', '_blank')" class="clickable sublink link">Dribbble</a>
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="back-parallax-wrapper" style="margin-top:-25vh;">
+            <h1 class="back-title">WORK</h1>
+         </div>
+         <!-- Work Page -->
+         <div id="contentContainer" class="work-click-area" style = "margin-top:50vh;">
+            <div class="content-wrapper">
+               <div class="work-list">
+                  <ul>
+                  </ul>
+               </div>
+               <div class="notice-text subheader hold-text">Hold to Scroll</div>
+            </div>
+         </div>
+
+		 <!-- Footer -->
+		 <div id="contentContainer" class="footer flex alignItemsCenter justifyContentAround" style="margin-top:20vh;">
+            <div class="flex justifyContentAround wd-100 connectWithMe" style="margin-top:5vh; box-sizing: border-box;">
+               <div class="wd-75">
+                  <h1 class = "big-title a-animate letConnectTitle" style="margin-bottom: 10px;">Let's connect !</h1>
+                  <p class="paragraph a-animate wd-100" style="margin-bottom: 5px;">
+					Like my work, and wanna talk? or just fancy saying hello? Drop a line. : )
+                  </p>
+				  <span class="copyRightText a-animate" style="font-size: 12px;">copy rights © 2022</span>
+               </div>
+               <div class="a-animate flex flexColumn wd-50 justifyContentCenter alignItemsEnd mailMeContainer">
+                  <a class="clickable sublink link a-animate" onclick="window.open('mailto:dikshantdesigns@gmail.com', '_blank')" style="font-size: 40px;font-family:'ClashDisplay-Medium';text-align: center;line-height: 24px;"><span>
+                     Click Here
+                  </span> <br>
+				      <span class="mailMeMini a-animate"  style="font-size: 14px;font-family:'ClashDisplay-Regular'">(to mail me)</span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+	  <script type="text/javascript" src="/files/js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="/files/js/anime.min.js"></script>
+      <script type="text/javascript" src="/files/js/slickscroll.js"></script>
+      <script type="module"  type="text/javascript" src="/files/js/main.min.js"></script>
+      <script>
+         (function(){
+            const maxWidth = 500;
+            let currentWidth = window.screen.width;
+            let title = document.querySelector('.title'),
+            expressNavMenu = document.querySelector('.expressNavMenu'),
+            logoIcon = document.querySelector('.logo-icon'),
+            aboutMe = document.querySelector('.aboutMe'),
+            connectWithMe = document.querySelector('.connectWithMe'),
+            copyRightText = document.querySelector('.copyRightText'),
+            learnMoreBtn = document.querySelector('.learnMoreBtn'),
+            aboutMeDiv = document.querySelectorAll('.aboutMe div'),
+            mailMeMini = document.querySelector('.mailMeMini'),
+            listContainer = document.querySelector('.list-container'),
+            connectWithMeDiv = document.querySelectorAll('.connectWithMe div');
+            if(currentWidth<maxWidth){
+               // expressNavMenu.classList.add('hide');
+               logoIcon.classList.add('fontSize100');
+               aboutMe.classList.add('flexColumn');
+               connectWithMe.classList.add('flexColumn');
+               learnMoreBtn.classList.add('fontSize35');
+               mailMeMini.classList.add('fontSize20');
+               /* copyRightText.classList.add('fontSize20'); */
+               listContainer.classList.add('wd-100');
+               aboutMeDiv.forEach((div)=>{
+                  div.classList.add('wd-100');
+               })
+               connectWithMeDiv.forEach((div)=>{
+                  div.classList.add('wd-100');
+                  div.style.margin="100px 0 0 0";
+               })
+            }
+         })();
+
+       /*   (()=>{
+            let width = screen.width;
+            let height = screen.height;
+            let ratio = width/height;
+            if(ratio>1.57){
+
+               let element=document.querySelector('.back-parallax-wrapperI h2');
+            }
+         })(); */
+      </script>
+   </body>
+</html>

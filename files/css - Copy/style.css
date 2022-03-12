@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: local("ClashDisplay-Variable"), url("ClashDisplay-Variable.woff") format("woff");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url("/files/css/fonts/ClashDisplay-Extralight.woff") format("woff");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url("/files/css/fonts/ClashDisplay-Light.woff2") format("woff2"), url("/musabhassan.com-1/files/cssfonts/ClashDisplay-Light.woff") format("woff"), url("/portfolio/fonts/ClashDisplay-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: local("ClashDisplay-Regular"), url("/files/css/fonts/ClashDisplay-Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url("//files/css/fonts/ClashDisplay-Medium.woff2") format("woff2"), url("/files/css/fonts/ClashDisplay-Medium.woff") format("woff"), url("/musabhassan.com-1/files/css/fonts/ClashDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url("/files/css/fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("/files/css/fonts/ClashDisplay-Semibold.woff") format("woff"), url("/portfolio/fonts/ClashDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  
+  /* b-- CUSTOMR WIDTH */
+  .w-85 {
+    width: 85% !important;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .w-15 {
+    width: 15% !important;
+  }
+  
+  .w-95 {
+    width: 95% !important;
+  }
+  
+  /* ==========================================================================
+     0. ELEMENT
+     ========================================================================== */
+  /* 0.1. Body / Typography
+     ========================================================================== */
+  body {
+    font-family: 'ClashDisplay-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #71748d;
+    color: #000;
+    background-color: #efeff6;
+    background-color: #000 !important;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a{
+      text-decoration: none;
+  }

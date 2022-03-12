@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: local("ClashDisplay-Variable"), url("ClashDisplay-Variable.woff") format("woff");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url("/files/css/fonts/ClashDisplay-Extralight.woff") format("woff");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url("/files/css/fonts/ClashDisplay-Light.woff2") format("woff2"), url("/musabhassan.com-1/files/cssfonts/ClashDisplay-Light.woff") format("woff"), url("/portfolio/fonts/ClashDisplay-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: local("ClashDisplay-Regular"), url("/files/css/fonts/ClashDisplay-Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url("//files/css/fonts/ClashDisplay-Medium.woff2") format("woff2"), url("/files/css/fonts/ClashDisplay-Medium.woff") format("woff"), url("/musabhassan.com-1/files/css/fonts/ClashDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url("/files/css/fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("/files/css/fonts/ClashDisplay-Semibold.woff") format("woff"), url("/portfolio/fonts/ClashDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  
+  /* b-- CUSTOMR WIDTH */
+  .w-85 {
+    width: 85% !important;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .w-15 {
+    width: 15% !important;
+  }
+  
+  .w-95 {
+    width: 95% !important;
+  }
+  
+  /* ==========================================================================
+     0. ELEMENT
+     ========================================================================== */
+  /* 0.1. Body / Typography
+     ========================================================================== */
+  body {
+    font-family: 'ClashDisplay-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #71748d;
+    color: #000;
+    background-color: #efeff6;
+    background-color: #000 !important;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+
+  @media screen 
+  and (max-device-width: 600px) 
+  and (min-device-width: 10px)  {
+    #contentContainer .work-list ul .list-item {
+      width: 75vw !important;
+    }
+    .letConnectTitle{
+      font-size: 40px;
+    }
+    .fontSize20{
+      font-size: 25px !important;
+      margin-top:35px !important;
+    }
+    .copyRightText{
+      font-size: 25px !important;
+      margin-top: 30px !important;
+    }
+    .paragraph {
+      line-height: 170% !important;
+      margin-bottom: 30px !important;
+    }
+    .mailMeContainer{
+      margin-top: 100px;
+    }
+    .socialLinksContainer{
+      width: 100% !important;
+    }
+    .socialLinksContainer span{
+      margin: 20px 0 !important;
+    }
+    .title span:nth-child(1){
+      font-size: 40px !important;
+    }
+    .title span:nth-child(3){
+      font-size: 100px !important;
+    }
+    .title span:nth-child(5){
+      font-size: 40px !important;
+    }
+    .title span:nth-child(7){
+      font-size: 40px !important;
+    }
+    body .c-summary_list_item a{
+      font-size: 30px !important;
+    }
+    .left-markerI{
+      display: none !important;
+    }
+}
+
+
+/* PRELOADER ANIMATION */
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loadingText {
+  color: #E64D3D;
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 50px;
+}
+
+.bounceball {
+  position: relative;
+  display: inline-block;
+  height: 37px;
+  width: 15px;
+  margin-right: 5px;
+}
+.bounceball:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #E64D3D;
+  transform-origin: 50%;
+  -webkit-animation: bounce 500ms alternate infinite ease;
+          animation: bounce 500ms alternate infinite ease;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+  }
+}

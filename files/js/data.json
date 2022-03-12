@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Food Orders",
+    "details": {
+      "description": "Food orders is a web application that let's you order food online. You can either get the food delivered to your house or collect it from the nearest store or resturant.",
+      "subtitle": "The Side Project",
+      "description2": "It is a web application that I designed and developed(front-end). This project is actually a part of even bigger POS(Point-of-sale) application."
+    },
+    "date": "Jan 2022",
+    "summary": "Project",
+    "roles": [
+      "Designer",
+      "Front-end Developer"
+    ],
+    "links": [
+      {
+        "type": "web",
+        "text": "Click to view",
+        "link": "https://github.com/DikshantJo/"
+      }
+    ]
+  }
+]
