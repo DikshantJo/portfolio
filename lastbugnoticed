@@ -1,0 +1,7 @@
+** Bug was found in preloader mobile browsers.
+   root: not found yet
+   sol: preloader has been removed right now
+       changes: commented loader script in main.min.js
+   final status: yet to be fixed
+
+****************************************************
