@@ -273,3 +273,20 @@
   #listing-container .secondary-image-wrapper img{
      width: 80%;
   }
+  
+  .intialSection{
+    background-image: url('https://uploads-ssl.webflow.com/5c3b9a6b6bc47198ec041cad/5e41e73ec2af60cf5cc94e67_website%20landing.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  } 
+
+  .back-title{
+    display: none;
+  }

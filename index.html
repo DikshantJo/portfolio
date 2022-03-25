@@ -18,6 +18,22 @@
          
             gtag('config', 'G-RB5HN95BW0');
       </script>
+      <style>
+         .title{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-align: left !important;
+         }
+         @media (max-width:1024px) {
+            .title {
+               position: inherit !important;
+            }
+            .title span:nth-child(1){
+               font-size: 70px !important;
+            }
+         }
+      </style>
         
    </head>
    <body>
@@ -165,10 +181,13 @@
                  <div class="loadingText">Loading</div>
                </div>
              </div>
+             <div class="intialSection">
+                
+             </div>
             <div class="content-wrapper">
                <div class="text-content flex flexColumn">
                   <div class="mtd-6 wd-100">
-                     <h1 class = "title white h-animate" style="text-transform:none;font-size: 32px;letter-spacing: 1px !important;text-align: center;"><span style="font-family: 'ClashDisplay-Medium';">Hi, I'm </span><br><span style="font-size: 80px; font-family: 'ClashDisplay-Medium';">Dikshant Joshi</span><br><span style="font-family: 'ClashDisplay-Medium';font-size: 20px;">I'm a product designer and a front-end developer</span></h1>
+                     <h1 class = "title white h-animate" style="text-transform:none;font-size: 32px;letter-spacing: 1px !important;text-align: center;"><span style="font-size: 80px; font-family: 'ClashDisplay-Medium';">Hi, nice to meet you </span><br><span style="font-family: 'ClashDisplay-Medium';"></span><span style="font-family: 'ClashDisplay-Medium';font-size: 20px;">I am <strong style="color:rgb(230, 77, 61)">Dikshant Joshi,</strong>  and I'm a product designer <br>and a front-end developer</span></h1>
                      <!-- <h3 class = "subtitle white h-animate mtd-2" style="font-family: 'ClashDisplay-Medium';text-align: center;">Designer & Web Developer </h3> -->
                      <!-- <h3 class = "subtitle white h-animate">Web Developer</h3> -->
                      <!-- <h3 class = "scroll-msg subheader white bottom h-animate">Scroll</h3> -->
@@ -178,38 +197,21 @@
                   </div>
                 
                </div>
-               <div class="flex flexColumn alignItemsCenter justifyContentbetween wd-100 h-animate h-signature">
+               <div class="flex flexColumn alignItemsCenter justifyContentbetween wd-100 h-animate h-signature" style="display: none !important;">
                   <div class="c-summary_list flex wd-100 alignItemsCenter justifyContentAround expressNavMenu">
                      <div class="wd-100 c-summary_list_item textAlignCenter" style="padding: 10px;">
                         <a href="#fixed-elements" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
                            About
-                           <!-- <span class="c-summary_list_icon u-icon">
-                              ↓
-                              </span> -->
                         </a>
                      </div>
                      <div class="wd-100 c-summary_list_item textAlignCenter " style="padding: 10px;">
                         <a href="#speed-control" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
                            Work
-                           <!-- <span class="c-summary_list_icon u-icon">
-                              ↓
-                              </span> -->
                         </a>
                      </div>
-                     <!--  <li class="c-summary_list_item u-label" data-scroll>
-                        <a href="#lerp-effect" data-scroll-to>
-                           03. Blog
-                           <span class="c-summary_list_icon u-icon">
-                              ↓
-                           </span>
-                        </a>
-                        </li> -->
                      <div class="wd-100 c-summary_list_item textAlignCenter" style="padding: 10px;">
                         <a href="#scroll-direction" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
                            Contact
-                           <!-- <span class="c-summary_list_icon u-icon">
-                              ↓
-                              </span> -->
                         </a>
                      </div>
                   </div>
@@ -287,6 +289,7 @@
       <script type="text/javascript" src="/files/js/anime.min.js"></script>
       <script type="text/javascript" src="/files/js/slickscroll.js"></script>
       <script type="module"  type="text/javascript" src="/files/js/main.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script>
          (function(){
             const maxWidth = 500;
@@ -319,6 +322,41 @@
                   div.style.margin="100px 0 0 0";
                })
             }
+         })();
+
+         (()=>{
+            let lFollowX = 0,
+               lFollowY = 0,
+               x = 0,
+               y = 0,
+               friction = 1 / 30;
+
+            function moveBackground() {
+            x += (lFollowX - x) * friction;
+            y += (lFollowY - y) * friction;
+            
+            translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+
+            $('.intialSection').css({
+               '-webit-transform': translate,
+               '-moz-transform': translate,
+               'transform': translate
+            });
+
+            window.requestAnimationFrame(moveBackground);
+            }
+
+            $(window).on('mousemove click', function(e) {
+
+            var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+            var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+            lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+            lFollowY = (10 * lMouseY) / 100;
+
+            });
+
+            moveBackground();
+
          })();
       </script>
    </body>
