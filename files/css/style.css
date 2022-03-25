@@ -32,7 +32,7 @@
   
   @font-face {
     font-family: 'ClashDisplay-Medium';
-    src: url("//files/css/fonts/ClashDisplay-Medium.woff2") format("woff2"), url("/files/css/fonts/ClashDisplay-Medium.woff") format("woff"), url("/musabhassan.com-1/files/css/fonts/ClashDisplay-Medium.ttf") format("truetype");
+    src: url("/files/css/fonts/ClashDisplay-Medium.woff2") format("woff2"), url("/files/css/fonts/ClashDisplay-Medium.woff") format("woff"), url("/musabhassan.com-1/files/css/fonts/ClashDisplay-Medium.ttf") format("truetype");
     font-weight: 500;
     font-display: swap;
     font-style: normal;

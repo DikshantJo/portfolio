@@ -1,9 +1,10 @@
 1)
 ** Bug was found in preloader mobile browsers.
-   root: not found yet
-   sol: preloader has been removed right now
-       changes: commented loader script in main.min.js
-   final status: yet to be fixed
+   root: found
+   sol: check commit id: 6cea02ff1e88009d02f4f080bbd40cb8b4e90956
+   preloader test2
+   changes: changes in main.min.js
+   final status: fixed
 
 ****************************************************
 2)
@@ -11,5 +12,19 @@
    root: not found yet
    sol: none
    final status: yet to be fixed
+
+****************************************************
+3)
+**personal branding.
+   root:none
+   sol: create a personal brand
+   final status: yet to be fixed
+
+****************************************************
+4)
+**Dark Mode.
+   root:New feature addition
+   sol: Building the feature
+   final status: yet to be built
 
 ****************************************************
