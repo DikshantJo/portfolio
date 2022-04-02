@@ -783,6 +783,13 @@ body .back-fill {
   #contentContainer .text-content * {
     text-align: center;
   }
+  .inf{
+    display: inline-block;
+    width: 600px;
+    text-align: left !important;
+    line-height: 40px;
+    font-family: 'ClashDisplay-Regular' !important;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
