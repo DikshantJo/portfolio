@@ -464,7 +464,7 @@ body .back-fill {
           box-sizing: border-box;
 }
 
-#listing-container .contentContainer .section, #listing-container .contentContainer .sectionI, #listing-container .contentContainerI .section, #listing-container .contentContainerI .sectionI, #listing-containerI .contentContainer .section, #listing-containerI .contentContainer .sectionI, #listing-containerI .contentContainerI .section, #listing-containerI .contentContainerI .sectionI {
+#listing-container .contentContainer .section, #listing-container .contentContainer .sectionI, #listing-container .contentContainerI .section, #listing-container .contentContainerI .sectionI, #listing-containerI .contentContainer .section, #listing-containerI .contentContainer .sectionI, #listing-containerI .contentContainerI .section {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
