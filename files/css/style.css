@@ -114,7 +114,7 @@
       margin: 20px 0 !important;
     }
     .title span:nth-child(1){
-      font-size: 40px !important;
+      font-size: 4vh !important;
     }
     .title span:nth-child(3){
       font-size: 100px !important;
@@ -130,6 +130,11 @@
     }
     .left-markerI{
       display: none !important;
+    }
+    .inf{
+      font-family: 'ClashDisplay-Regular' !important;
+      font-size: 2vh !important;
+      line-height: 70px;
     }
 }
 
