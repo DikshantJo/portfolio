@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Questrial");
-@font-face {
+/* @import url("https://fonts.googleapis.com/css?family=Questrial"); */
+/* @font-face {
   font-family: "Autography";
   src: url(fonts/Autography.woff);
-}
+} */
 
 * {
   margin: 0;
@@ -160,24 +160,30 @@ body .back-fill {
 }
 
 .nav-wrapper {
-  width: 100vw;
-    position: fixed;
-    margin: 0 auto;
-    top: 7vh;
-    padding: 0 7vw;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    z-index: 30;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+  width: 90vw;
+  position: fixed;
+  margin: 0 auto;
+  top: 2vh;
+  margin: 0 4.9vw;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  z-index: 30;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
 }
 
 .nav-wrapper .logo-icon {
-  display: inline-block;
+  display: flex;
+  font-size: 2.2vh;
   height: 7vh;
   transition: filter 0.8s ease, -webkit-filter 0.8s ease;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 .nav-wrapper .logo-icon.invert {
@@ -188,7 +194,8 @@ body .back-fill {
 .nav-wrapper .hb-button {
   cursor: pointer;
   float: right;
-  position: relative;
+  display: flex;
+  align-items: center;
   top: 3vh;
   z-index: 21;
 }
@@ -199,11 +206,11 @@ body .back-fill {
 }
 
 .nav-wrapper .hb-button .text {
-  font-family: "Questrial", sans-serif;
-  font-weight: 2vh;
+  /* font-family: "Questrial", sans-serif; */
+  font-weight: 600;
   font-size: 2.1vh;
   letter-spacing: 0.3vh;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: color 0.8s ease;
   -webkit-transition: color 0.8s ease;
   -moz-transition: color 0.8s ease;
@@ -353,7 +360,7 @@ body .back-fill {
 }
 
 .m-nav-wrapper .list-container ul li {
-  font-family: "Nexa Bold", sans-serif;
+/*  font-family: "Nexa Bold", sans-serif;*/
   font-size: 6vh;
   font-weight: normal;
   line-height: 170%;
@@ -511,7 +518,7 @@ body .back-fill {
 
 #listing-container .contentContainer .section .inline-wrapper .stats-wrapper .label, #listing-container .contentContainer .section .inline-wrapper .stats-wrapper .labelI, #listing-container .contentContainer .section .inline-wrapper .stats-wrapperI .label, #listing-container .contentContainer .section .inline-wrapper .stats-wrapperI .labelI, #listing-container .contentContainer .section .inline-wrapperI .stats-wrapper .label, #listing-container .contentContainer .section .inline-wrapperI .stats-wrapper .labelI, #listing-container .contentContainer .section .inline-wrapperI .stats-wrapperI .label, #listing-container .contentContainer .section .inline-wrapperI .stats-wrapperI .labelI, #listing-container .contentContainer .sectionI .inline-wrapper .stats-wrapper .label, #listing-container .contentContainer .sectionI .inline-wrapper .stats-wrapper .labelI, #listing-container .contentContainer .sectionI .inline-wrapper .stats-wrapperI .label, #listing-container .contentContainer .sectionI .inline-wrapper .stats-wrapperI .labelI, #listing-container .contentContainer .sectionI .inline-wrapperI .stats-wrapper .label, #listing-container .contentContainer .sectionI .inline-wrapperI .stats-wrapper .labelI, #listing-container .contentContainer .sectionI .inline-wrapperI .stats-wrapperI .label, #listing-container .contentContainer .sectionI .inline-wrapperI .stats-wrapperI .labelI, #listing-container .contentContainerI .section .inline-wrapper .stats-wrapper .label, #listing-container .contentContainerI .section .inline-wrapper .stats-wrapper .labelI, #listing-container .contentContainerI .section .inline-wrapper .stats-wrapperI .label, #listing-container .contentContainerI .section .inline-wrapper .stats-wrapperI .labelI, #listing-container .contentContainerI .section .inline-wrapperI .stats-wrapper .label, #listing-container .contentContainerI .section .inline-wrapperI .stats-wrapper .labelI, #listing-container .contentContainerI .section .inline-wrapperI .stats-wrapperI .label, #listing-container .contentContainerI .section .inline-wrapperI .stats-wrapperI .labelI, #listing-container .contentContainerI .sectionI .inline-wrapper .stats-wrapper .label, #listing-container .contentContainerI .sectionI .inline-wrapper .stats-wrapper .labelI, #listing-container .contentContainerI .sectionI .inline-wrapper .stats-wrapperI .label, #listing-container .contentContainerI .sectionI .inline-wrapper .stats-wrapperI .labelI, #listing-container .contentContainerI .sectionI .inline-wrapperI .stats-wrapper .label, #listing-container .contentContainerI .sectionI .inline-wrapperI .stats-wrapper .labelI, #listing-container .contentContainerI .sectionI .inline-wrapperI .stats-wrapperI .label, #listing-container .contentContainerI .sectionI .inline-wrapperI .stats-wrapperI .labelI, #listing-containerI .contentContainer .section .inline-wrapper .stats-wrapper .label, #listing-containerI .contentContainer .section .inline-wrapper .stats-wrapper .labelI, #listing-containerI .contentContainer .section .inline-wrapper .stats-wrapperI .label, #listing-containerI .contentContainer .section .inline-wrapper .stats-wrapperI .labelI, #listing-containerI .contentContainer .section .inline-wrapperI .stats-wrapper .label, #listing-containerI .contentContainer .section .inline-wrapperI .stats-wrapper .labelI, #listing-containerI .contentContainer .section .inline-wrapperI .stats-wrapperI .label, #listing-containerI .contentContainer .section .inline-wrapperI .stats-wrapperI .labelI, #listing-containerI .contentContainer .sectionI .inline-wrapper .stats-wrapper .label, #listing-containerI .contentContainer .sectionI .inline-wrapper .stats-wrapper .labelI, #listing-containerI .contentContainer .sectionI .inline-wrapper .stats-wrapperI .label, #listing-containerI .contentContainer .sectionI .inline-wrapper .stats-wrapperI .labelI, #listing-containerI .contentContainer .sectionI .inline-wrapperI .stats-wrapper .label, #listing-containerI .contentContainer .sectionI .inline-wrapperI .stats-wrapper .labelI, #listing-containerI .contentContainer .sectionI .inline-wrapperI .stats-wrapperI .label, #listing-containerI .contentContainer .sectionI .inline-wrapperI .stats-wrapperI .labelI, #listing-containerI .contentContainerI .section .inline-wrapper .stats-wrapper .label, #listing-containerI .contentContainerI .section .inline-wrapper .stats-wrapper .labelI, #listing-containerI .contentContainerI .section .inline-wrapper .stats-wrapperI .label, #listing-containerI .contentContainerI .section .inline-wrapper .stats-wrapperI .labelI, #listing-containerI .contentContainerI .section .inline-wrapperI .stats-wrapper .label, #listing-containerI .contentContainerI .section .inline-wrapperI .stats-wrapper .labelI, #listing-containerI .contentContainerI .section .inline-wrapperI .stats-wrapperI .label, #listing-containerI .contentContainerI .section .inline-wrapperI .stats-wrapperI .labelI, #listing-containerI .contentContainerI .sectionI .inline-wrapper .stats-wrapper .label, #listing-containerI .contentContainerI .sectionI .inline-wrapper .stats-wrapper .labelI, #listing-containerI .contentContainerI .sectionI .inline-wrapper .stats-wrapperI .label, #listing-containerI .contentContainerI .sectionI .inline-wrapper .stats-wrapperI .labelI, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .stats-wrapper .label, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .stats-wrapper .labelI, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .stats-wrapperI .label, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .stats-wrapperI .labelI {
   font-size: 2.5vh;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-weight: bold;
   color: #565D67;
   padding: 3vh 0;
@@ -562,7 +569,7 @@ body .back-fill {
 }
 
 #listing-container .contentContainer .section .inline-wrapper .details-wrapper p.num, #listing-container .contentContainer .section .inline-wrapper .details-wrapper p.numI, #listing-container .contentContainer .section .inline-wrapper .details-wrapperI p.num, #listing-container .contentContainer .section .inline-wrapper .details-wrapperI p.numI, #listing-container .contentContainer .section .inline-wrapperI .details-wrapper p.num, #listing-container .contentContainer .section .inline-wrapperI .details-wrapper p.numI, #listing-container .contentContainer .section .inline-wrapperI .details-wrapperI p.num, #listing-container .contentContainer .section .inline-wrapperI .details-wrapperI p.numI, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapper p.num, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapper p.numI, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapperI p.num, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapperI p.numI, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapper p.num, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapper p.numI, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.num, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.numI, #listing-container .contentContainerI .section .inline-wrapper .details-wrapper p.num, #listing-container .contentContainerI .section .inline-wrapper .details-wrapper p.numI, #listing-container .contentContainerI .section .inline-wrapper .details-wrapperI p.num, #listing-container .contentContainerI .section .inline-wrapper .details-wrapperI p.numI, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapper p.num, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapper p.numI, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapperI p.num, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapperI p.numI, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapper p.num, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapper p.numI, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.num, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.numI, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.num, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.numI, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.num, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.numI, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapper p.num, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapper p.numI, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapperI p.num, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapperI p.numI, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapper p.num, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapper p.numI, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapperI p.num, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapperI p.numI, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapper p.num, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapper p.numI, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapperI p.num, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapperI p.numI, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapper p.num, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapper p.numI, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.num, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.numI, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapper p.num, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapper p.numI, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapperI p.num, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapperI p.numI, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapper p.num, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapper p.numI, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapperI p.num, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapperI p.numI, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapper p.num, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapper p.numI, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.num, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.numI, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.num, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.numI, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.num, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.numI {
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-size: 3vh;
   margin-bottom: 6vh;
   text-align: right;
@@ -590,7 +597,7 @@ body .back-fill {
 }
 
 #listing-container .contentContainer .section .inline-wrapper .details-wrapper p.info-paragraph, #listing-container .contentContainer .section .inline-wrapper .details-wrapper p.info-paragraphI, #listing-container .contentContainer .section .inline-wrapper .details-wrapperI p.info-paragraph, #listing-container .contentContainer .section .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-container .contentContainer .section .inline-wrapperI .details-wrapper p.info-paragraph, #listing-container .contentContainer .section .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-container .contentContainer .section .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-container .contentContainer .section .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapper p.info-paragraph, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapper p.info-paragraphI, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapperI p.info-paragraph, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapper p.info-paragraph, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-container .contentContainerI .section .inline-wrapper .details-wrapper p.info-paragraph, #listing-container .contentContainerI .section .inline-wrapper .details-wrapper p.info-paragraphI, #listing-container .contentContainerI .section .inline-wrapper .details-wrapperI p.info-paragraph, #listing-container .contentContainerI .section .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapper p.info-paragraph, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapper p.info-paragraph, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapper p.info-paragraphI, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.info-paragraph, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.info-paragraph, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapper p.info-paragraph, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapper p.info-paragraphI, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapperI p.info-paragraph, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapper p.info-paragraph, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapper p.info-paragraph, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapper p.info-paragraphI, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapperI p.info-paragraph, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapper p.info-paragraph, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapper p.info-paragraph, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapper p.info-paragraphI, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapperI p.info-paragraph, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapper p.info-paragraph, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapper p.info-paragraph, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapper p.info-paragraphI, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.info-paragraph, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapperI p.info-paragraphI, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.info-paragraph, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapper p.info-paragraphI, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.info-paragraph, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapperI p.info-paragraphI {
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-size: 2vh;
   line-height: 200%;
   margin-top: 4vh;
@@ -603,7 +610,7 @@ body .back-fill {
 #listing-container .contentContainer .section .inline-wrapper .details-wrapper .links a.w-link, #listing-container .contentContainer .section .inline-wrapper .details-wrapper linksI a.w-link, #listing-container .contentContainer .section .inline-wrapper .details-wrapperI .links a.w-link, #listing-container .contentContainer .section .inline-wrapper .details-wrapperI linksI a.w-link, #listing-container .contentContainer .section .inline-wrapperI .details-wrapper .links a.w-link, #listing-container .contentContainer .section .inline-wrapperI .details-wrapper linksI a.w-link, #listing-container .contentContainer .section .inline-wrapperI .details-wrapperI .links a.w-link, #listing-container .contentContainer .section .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapper .links a.w-link, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapper linksI a.w-link, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapperI .links a.w-link, #listing-container .contentContainer .sectionI .inline-wrapper .details-wrapperI linksI a.w-link, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapper .links a.w-link, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapper linksI a.w-link, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapperI .links a.w-link, #listing-container .contentContainer .sectionI .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-container .contentContainerI .section .inline-wrapper .details-wrapper .links a.w-link, #listing-container .contentContainerI .section .inline-wrapper .details-wrapper linksI a.w-link, #listing-container .contentContainerI .section .inline-wrapper .details-wrapperI .links a.w-link, #listing-container .contentContainerI .section .inline-wrapper .details-wrapperI linksI a.w-link, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapper .links a.w-link, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapper linksI a.w-link, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapperI .links a.w-link, #listing-container .contentContainerI .section .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapper .links a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapper linksI a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapperI .links a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapper .details-wrapperI linksI a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapper .links a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapper linksI a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapperI .links a.w-link, #listing-container .contentContainerI .sectionI .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapper .links a.w-link, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapper linksI a.w-link, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapperI .links a.w-link, #listing-containerI .contentContainer .section .inline-wrapper .details-wrapperI linksI a.w-link, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapper .links a.w-link, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapper linksI a.w-link, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapperI .links a.w-link, #listing-containerI .contentContainer .section .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapper .links a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapper linksI a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapperI .links a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapper .details-wrapperI linksI a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapper .links a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapper linksI a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapperI .links a.w-link, #listing-containerI .contentContainer .sectionI .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapper .links a.w-link, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapper linksI a.w-link, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapperI .links a.w-link, #listing-containerI .contentContainerI .section .inline-wrapper .details-wrapperI linksI a.w-link, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapper .links a.w-link, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapper linksI a.w-link, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapperI .links a.w-link, #listing-containerI .contentContainerI .section .inline-wrapperI .details-wrapperI linksI a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapper .links a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapper linksI a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapperI .links a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapper .details-wrapperI linksI a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapper .links a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapper linksI a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapperI .links a.w-link, #listing-containerI .contentContainerI .sectionI .inline-wrapperI .details-wrapperI linksI a.w-link {
   display: inline-block;
   text-transform: uppercase;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-size: 2.6vh;
   color: white;
   font-weight: normal;
@@ -727,7 +734,7 @@ body .back-fill {
 #contentContainer .text-content {
   z-index: 2;
   width: 100%;
-  height: 100%;
+  height: 75%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,7 +746,7 @@ body .back-fill {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  padding: 0 5vw;
+  /* padding: 0 5vw; */
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -785,10 +792,10 @@ body .back-fill {
   }
   .inf{
     display: inline-block;
-    width: 600px;
+    width: 300px;
     text-align: left !important;
     line-height: 40px;
-    font-family: 'ClashDisplay-Regular' !important;
+    /* font-family: 'ClashDisplay-Regular' !important; */
   }
 }
 
@@ -874,12 +881,13 @@ body .back-fill {
   margin: 10px 0;
 }
 
-.title span {
+/* .title span {
   font-family: 'ClashDisplay-Semibold';
-}
+  font-weight: 700;
+} */
 
 .title.signed {
-  font-family: "Autography", sans-serif !important;
+  /* font-family: "Autography", sans-serif !important; */
   text-transform: none !important;
 }
 
@@ -1015,7 +1023,7 @@ body .back-fill {
   left: 6vh;
   margin-right: 6vh;
   color: white;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-weight: normal;
   font-size: 1vw;
   letter-spacing: 0.5vw;
@@ -1036,7 +1044,7 @@ body .back-fill {
 
 #contentContainer .work-list ul .list-item .text-wrapper .item-title {
   color: white;
-  font-family: "Nexa Bold", sans-serif;
+/*  font-family: "Nexa Bold", sans-serif;*/
   font-weight: normal;
   font-size: 2.5vw;
   z-index: 0;
@@ -1135,7 +1143,7 @@ body .back-fill {
 .back-parallax-wrapper .back-title {
   font-size: 28vw;
   color: #DFE3E8;
-  font-family: "Nexa Bold", sans-serif;
+/*  font-family: "Nexa Bold", sans-serif;*/
   -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
@@ -1226,14 +1234,14 @@ body .back-fill {
 }
 
 .paragraph {
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   line-height: 200%;
   font-weight: normal;
 }
 
 .subtle-text {
   color: #B3BCF5;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-size: 2.4vh;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -1248,7 +1256,7 @@ body .back-fill {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
   position: relative;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-size: 1.8vh;
   color: #FAFAFC;
   padding: 1.2vh;
@@ -1320,7 +1328,7 @@ body .back-fill {
 
 .descriptor {
   font-size: 3vh;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   text-transform: uppercase;
   letter-spacing: 1vh;
   color: #212B36;

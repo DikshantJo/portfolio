@@ -68,7 +68,8 @@
   /* 0.1. Body / Typography
      ========================================================================== */
   body {
-    font-family: 'ClashDisplay-Regular';
+    /* font-family: 'ClashDisplay-Regular'; */
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -135,6 +136,36 @@
       font-family: 'ClashDisplay-Regular' !important;
       font-size: 2vh !important;
       line-height: 70px;
+    }
+    .designAndDevInfo{
+      font-size: 1.5vh;
+      line-height:2.2vh;
+    }
+    .leftSideLandingPage{
+      width: 100% !important;
+    }
+    .rightSideLandingPage{
+      display: none !important;
+    }
+  
+    .title{
+      font-size: 140px !important;
+    }
+    .myInfo{
+      font-size: 40px !important;
+      line-height: 80px !important;
+      margin-top: 30px;
+    }
+    .socialLinksContainer{
+ /*      display: none !important; */
+        margin-top: 50px !important;
+    }
+    .spanII{
+      margin-top: 10px !important;
+    }
+    #sayHiMessage svg{
+      width: 40px !important;
+      height: 40px !important;
     }
 }
 
@@ -281,9 +312,10 @@
   
   .intialSection{
     background-image: url('https://uploads-ssl.webflow.com/5c3b9a6b6bc47198ec041cad/5e41e73ec2af60cf5cc94e67_website%20landing.png');
+    background-image: url('https://www.whatsappprofiledpimages.com/wp-content/uploads/2021/08/Latest-White-Background-Images-pics-download.gif');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     z-index: -1;
     height: 100vh;
     width: 100%;
@@ -292,6 +324,63 @@
     bottom: 0;
   } 
 
+  .designAndDevInfo{
+    position: absolute;
+    bottom: 100px;
+    line-height: 25px;
+  }
+  .designAndDevInfo span:nth-child(1){
+    font-weight: 800;
+  }
+
+  .landingPageImage{
+    width:40% !important; height: 100%; object-fit: cover;
+    position: absolute;
+    right: 0;
+    border-radius: 12px;
+
+  }
+  .sayHiCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .connectBtn{
+    background-color: #000;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .divide-link a{
+    padding-bottom:5px;
+    text-transform: capitalize;
+    border-bottom:1px solid grey;
+    font-weight: 600;
+    letter-spacing: .1vh;
+  }
+
 /*   .back-title:nth-child(1){
     display: none;
   } */
+.messageContainer{
+    position: absolute;
+    top: 150px;
+    width: 400px;
+    height: 400px;
+    border-radius: 22px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    -webkit-box-shadow: 4px 4px 17px -3px rgba(171,171,171,1);
+    -moz-box-shadow: 4px 4px 17px -3px rgba(171,171,171,1);
+    box-shadow: 4px 4px 17px -3px rgba(171,171,171,1);
+}

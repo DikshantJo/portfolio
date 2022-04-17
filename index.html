@@ -5,6 +5,7 @@
       <link rel="stylesheet" type="text/css" href="/files/css/main.css">
       <link rel="stylesheet" type="text/css" href="/files/css/style.css">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link href="http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
       <meta name="keywords" content="Dikshant, Joshi, Dikshant Joshi, Portfolio, UI , UX , Front-end">
       <meta name="author" content="Dikshant Joshi">
       <meta http-equiv="content-type" content="text/html" charset="UTF-8">
@@ -20,9 +21,9 @@
       </script>
       <style>
          .title{
-            position: absolute;
+            /* position: absolute;
             left: 0;
-            bottom: 0;
+            bottom: 0; */
             text-align: left !important;
          }
          @media (max-width:1024px) {
@@ -142,16 +143,46 @@
 
       <!-- Navigation Bar -->
       <div class="nav-wrapper">
+         
          <!-- <img draggable="false" data-name="home" data-lazysrc="files/imgs/icon.png" alt="Page Logo" style = "width:7vh;" class = "logo-icon clickable"> -->
-         <a style = "width:7vh;font-size:50px;font-family:'ClashDisplay-Semibold';text-align:center" class = "logo-icon clickable "  data-name="home">D </a>
-         <div class="hb-button clickable">
-            <div class="hb">
-               <span></span>
-               <span></span>
-               <span></span>
-            </div>
-            <div class="text">Menu</div>
+         <a class = "logo-icon clickable "  data-name="home">Dikshant Joshi </a>
+         <div class="commonContainer justifyContentbetween alignItemsCenter" style="display: flex;">
+            <div class="sayHiCon">
+               <a class="clickable" onclick="window.open('mailto:dikshantdesigns@gmail.com', '_blank')"  id="sayHiMessage" style="display: flex; justify-content: space-around; align-items: center;">
+                <span style="font-size: 2.1vh;font-weight: 600;"> Say hi </span>
+                <svg style="width: 20px;height: 20px;margin-left:3px" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.53135 7.4375C0.625099 7.85938 0.307911 8.98438 0.715724 9.92188L6.4251 22.25L9.59697 20.7031L3.8876 8.32813C3.47979 7.39063 2.4376 6.96875 1.53135 7.4375V7.4375ZM16.5298 17.2344L19.8829 15.5938L13.3579 1.53125C12.9048 0.593752 11.8173 0.171877 10.8657 0.640627C9.95947 1.10938 9.55166 2.23438 10.0048 3.21875L16.5298 17.2344Z" fill="#FFDD67"/>
+                  <path d="M10.911 0.593717C10.8204 0.640592 10.7298 0.687467 10.6392 0.781217C11.5001 0.546842 12.4063 0.968717 12.8142 1.81247L19.3392 15.875L19.9282 15.5937L13.4032 1.53122C12.9501 0.546842 11.8626 0.124967 10.911 0.593717" fill="#EBA352"/>
+                  <path d="M9.59702 20.6563L13.0861 18.9219L6.42515 4.57814C5.97203 3.59377 4.7939 3.12502 3.84234 3.59377C2.89078 4.06252 2.48296 5.28127 2.93609 6.26564L9.59702 20.6563Z" fill="#FFDD67"/>
+                  <path d="M3.84219 3.64058C3.75156 3.68746 3.66094 3.73433 3.57031 3.82808C4.43125 3.59371 5.42812 4.01558 5.83594 4.90621L9.95937 13.8593L10.9562 14.4687L6.425 4.62496C5.97187 3.59371 4.83906 3.17183 3.84219 3.64058" fill="#EBA352"/>
+                  <path d="M12.5423 17.7969L16.0314 16.0625L9.37046 1.71873C8.91734 0.734352 7.73921 0.265602 6.78765 0.781227C5.83609 1.24998 5.42828 2.46873 5.8814 3.4531L12.5423 17.7969Z" fill="#FFDD67"/>
+                  <path d="M6.7874 0.734331C6.69678 0.781206 6.60615 0.874956 6.51553 0.921831C7.37647 0.687456 8.37334 1.10933 8.78115 1.99996L13.4483 12.125L14.4452 12.7343L9.37021 1.71871C8.91709 0.687456 7.73897 0.265581 6.7874 0.734331V0.734331ZM1.53115 7.43746C1.44053 7.48433 1.3499 7.53121 1.25928 7.62496C2.0749 7.39058 2.93584 7.81246 3.29834 8.65621L6.69678 16.0156L7.69365 16.625L3.8874 8.37496C3.47959 7.39058 2.4374 6.96871 1.53115 7.43746Z" fill="#EBA352"/>
+                  <path d="M24.55 6.03125C23.3265 5.04687 21.3328 6.125 20.3359 9.5C19.6562 11.8437 19.5656 12.5469 18.1156 13.25L17.3 11.5156C17.3 11.5156 4.4312 17.9375 4.92964 18.9687C4.92964 18.9687 6.47027 23.9375 9.09839 26.2344C12.9953 29.7031 22.1031 26 22.5109 17.0469C22.7375 11.8437 25.864 7.10937 24.55 6.03125Z" fill="#FFDD67"/>
+                  <path d="M24.5499 6.03125C24.3233 5.84375 24.0515 5.75 23.7796 5.70312C23.8249 5.75 23.9155 5.75 23.9608 5.79687C25.3202 6.875 23.9155 9.35937 23.1452 11.6094C22.5108 13.3906 21.9671 15.2188 22.0577 17C22.4202 24.7813 14.853 28.4844 10.3218 27.0781C14.7624 29 23.0093 25.3438 22.6468 17.2344C22.5562 15.4531 23.0546 13.7187 23.7343 11.8437C24.4593 9.59375 25.864 7.10937 24.5499 6.03125" fill="#EBA352"/>
+                  <path d="M18.5234 13.0625C15.714 13.3906 11.5906 17.5625 14.4906 22.1094C12.3609 17.5156 15.85 14.4219 18.0703 13.3438C18.2968 13.1563 18.5234 13.0625 18.5234 13.0625" fill="#EBA352"/>
+               </svg>                  
+               </a>
+              <!--  <div class="messageContainer">
+                  <button>X</button>
+                  <span>
+                     Hi,how are you doing ?
+                  </span>
+                  <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                  <button>Send</button>
+                  <span></span>
+
+               </div> -->
+             </div>
+             <div class="hb-button clickable">
+                <div class="hb">
+                   <!-- <span></span>
+                   <span></span>
+                   <span></span> -->
+                </div>
+                <div class="text">Menu</div>
+             </div>
          </div>
+        
       </div>
       <!-- Navigation Menu -->
       <div class="m-nav-wrapper">
@@ -171,7 +202,7 @@
       <!-- Page Content -->
       <div class="document-ease" style="margin-left:0% !important;">
          <!-- Home Page -->
-         <div id="contentContainer" style="padding-top: 15vh">
+         <div id="contentContainer" class="landingPageParentContainer" style="padding-top: 15vh">
             <!-- <div class="load">
                <div class="loader">0%</div>
             </div> -->
@@ -186,19 +217,41 @@
              </div>
             <div class="content-wrapper">
                <div class="text-content flex flexColumn">
-                  <div class="mtd-6 wd-100">
-                     <h1 class = "title white h-animate" style="text-transform:none;font-size: 32px;letter-spacing: 1px !important;text-align: center;"><span style="font-size: 80px; font-family: 'ClashDisplay-Medium';">Hi, nice to meet you </span><br><span style="font-family: 'ClashDisplay-Medium';"></span><span class="inf" style="font-family: 'ClashDisplay-Medium';font-size: 20px;">I am <strong style="color:rgb(230, 77, 61)">Dikshant Joshi,</strong>  and I'm a product designer and a front-end developer</span></h1>
+                  <div class="mtd-6 wd-100 landingContainer" style="display: flex; justify-content: space-between;height: 100%;">
+                     <div class="h-animate leftSideLandingPage" style="width:50%; display: flex;flex-direction: column;">
+                        <h1 class = "title white" style="text-transform:none;font-size: 80px;letter-spacing: 1px !important;text-align: center;">UI/UX Designer <br>& Developer</h1>
+                        <!-- <a href="" class="connectBtn h-animate clickable">Let's connect</a> -->
+                        <span class="h-animate myInfo" style="text-align: left;margin-top: 30px;line-height: 30px;">Hi, I'm Dikshant, and I'm a self-taught UX designer and a front-end developer. I create digital designs for websites, mobile, desktop, and other digital environments. I am also a front-end Developer, so I also bring my digital designs to life through code.<br> More about <a class="clickable learnMoreBtn h-animate" style="font-size: 2vh;color:#E64D3D;border-bottom: 2px solid #E64D3D;font-weight: 600;">me</a></span>
+
+                        <div class="flex flexColumn h-animate wd-25 justifyContentCenter alignItemsStart socialLinksContainer" style="margin-top: 30px;">
+                           <span class="divide-link" style="text-align: left;">
+                           <a onclick="window.open('https://www.instagram.com/dikshantjoshi_/', '_blank')" class="clickable sublink link">Instagram</a>
+                           </span>
+                           <span class="divide-link" style="text-align: left;">
+                           <a onclick="window.open('https://www.facebook.com/dikshant.joshi.3', '_blank')" class="clickable sublink link">Facebook</a>
+                           </span>
+                           <span class="divide-link" style="text-align: left;">
+                           <a onclick="window.open('https://dribbble.com/DikshantjoshI', '_blank')" class="clickable sublink link">Dribbble</a>
+                           </span>
+                        </div>
+                     </div>
+                     <div class="rightSideLandingPage"style="width:50%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;height: 75%;">
+                        <span class="inf h-animate" style="font-size: 18px;font-weight: 500;margin-left: 100px;">Specialized in UI/UX Design <br>
+                           Webflow & front-end <br> development</span>
+                        <span class="inf h-animate" style="font-size: 18px;font-weight: 500;margin-left: 100px;">Based in Hyderabad<br>
+                           India</span>
+                     </div>
                      <!-- <h3 class = "subtitle white h-animate mtd-2" style="font-family: 'ClashDisplay-Medium';text-align: center;">Designer & Web Developer </h3> -->
                      <!-- <h3 class = "subtitle white h-animate">Web Developer</h3> -->
                      <!-- <h3 class = "scroll-msg subheader white bottom h-animate">Scroll</h3> -->
                      <div class="parallax-wrapper home-back">
-                        <!-- <img draggable="false" data-lazysrc="files/imgs/back/home-back.jpg" style="width:100%; height: 100%; object-fit: cover;"> -->
+                        <!-- <img class="landingPageImage" draggable="false" data-lazysrc="files/imgs/back/home-back.jpg" > -->
                      </div>
                   </div>
                 
                </div>
-               <div class="flex flexColumn alignItemsCenter justifyContentbetween wd-100 h-animate h-signature" style="display: none !important;">
-                  <div class="c-summary_list flex wd-100 alignItemsCenter justifyContentAround expressNavMenu">
+               <div class="flex flexColumn alignItemsCenter justifyContentbetween wd-100 h-animate h-signature">
+                  <div class="c-summary_list flex wd-100 alignItemsCenter justifyContentAround expressNavMenu" style="display: none !important;">
                      <div class="wd-100 c-summary_list_item textAlignCenter" style="padding: 10px;">
                         <a href="#fixed-elements" class="clickable sublink link" style="font-size: 16px;font-family: 'ClashDisplay-medium';">
                            About
@@ -215,14 +268,15 @@
                         </a>
                      </div>
                   </div>
-                  <div class="back-parallax-wrapperI" style="opacity: 1; transform: translate(0px, 138.865px);">
+                  <!-- <div class="back-parallax-wrapperI" style="opacity: 1; transform: translate(0px, 138.865px);width: 100%;font-size: 18px;display: flex;justify-content: start;">
                      <h2 class="back-title" style="display: none !important;">Portfolio</h2>
-                  </div>
+                     <a class="clickable scroller" style="color:rgb(230, 77, 61)" data-name="work">Coming up next <strong>Selected work-</strong> </a>
+                  </div> -->
                </div>
             </div>
          </div>
          <!-- About Page -->
-         <div id="contentContainer" class="about flex alignItemsCenter justifyContentAround" style="margin-top:20vh;">
+         <!-- <div id="contentContainer" class="about flex alignItemsCenter justifyContentAround" style="margin-top:20vh;">
             <div class="profile-image">
             </div>
             <div class="flex justifyContentAround aboutMe" style="margin-top:5vh; box-sizing: border-box;">
@@ -250,8 +304,8 @@
                   </span>
                </div>
             </div>
-         </div>
-         <div class="back-parallax-wrapper" style="margin-top:-25vh;">
+         </div> -->
+         <div class="back-parallax-wrapper" style="margin-top:8vh;">
             <h1 class="back-title">WORK</h1>
          </div>
          <!-- Work Page -->
@@ -271,9 +325,10 @@
                <div class="wd-75">
                   <h1 class = "big-title a-animate letConnectTitle" style="margin-bottom: 10px;">Let's connect !</h1>
                   <p class="paragraph a-animate wd-100" style="margin-bottom: 5px;">
-					Like my work, and wanna talk? or just fancy saying hello? Drop a line. : )
+					      Like my work, and wanna talk? or just fancy saying hello? Drop a line. : )
                   </p>
-				  <span class="copyRightText a-animate" style="font-size: 12px;">copy rights © 2022</span>
+				      <span class="copyRightText a-animate" style="font-size: 12px;">copy rights © 2022</span>
+                  <div class="flex flexColumn designAndDevInfo a-animate" ><span>Designed and developed by-</span> <span class="spanII">Dikshant Joshi</span></div>
                </div>
                <div class="a-animate flex flexColumn wd-50 justifyContentCenter alignItemsEnd mailMeContainer">
                   <a class="clickable sublink link a-animate" onclick="window.open('mailto:dikshantdesigns@gmail.com', '_blank')" style="font-size: 40px;font-family:'ClashDisplay-Medium';text-align: center;line-height: 24px;"><span>
@@ -297,7 +352,7 @@
             let title = document.querySelector('.title'),
             expressNavMenu = document.querySelector('.expressNavMenu'),
             logoIcon = document.querySelector('.logo-icon'),
-            aboutMe = document.querySelector('.aboutMe'),
+            // aboutMe = document.querySelector('.aboutMe'),
             connectWithMe = document.querySelector('.connectWithMe'),
             copyRightText = document.querySelector('.copyRightText'),
             learnMoreBtn = document.querySelector('.learnMoreBtn'),
@@ -307,8 +362,8 @@
             connectWithMeDiv = document.querySelectorAll('.connectWithMe div');
             if(currentWidth<maxWidth){
                // expressNavMenu.classList.add('hide');
-               logoIcon.classList.add('fontSize100');
-               aboutMe.classList.add('flexColumn');
+               // logoIcon.classList.add('fontSize100');
+               // aboutMe.classList.add('flexColumn');
                connectWithMe.classList.add('flexColumn');
                learnMoreBtn.classList.add('fontSize35');
                mailMeMini.classList.add('fontSize20');
@@ -358,6 +413,7 @@
             moveBackground();
 
          })();
+
       </script>
    </body>
 </html>
